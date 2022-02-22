@@ -1,5 +1,5 @@
 .wrapper {
-  margin: 0%auto;
+  margin: 0 auto;
   width: 100%;
   max-width: 1200px;
 }
@@ -20,11 +20,14 @@ html {
 html,
 body {
   height: 100%;
-  font-size: 1.6rem;
 }
 
 body {
   font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+  height: 60px;
 }
 
 .navbar__container {
@@ -34,12 +37,83 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
+  height: 100%;
+  font-weight: 700;
+}
+
+.navbar__logo-name {
+  font-size: 4rem;
+  text-decoration: none;
+  color: #000000;
+}
+
+.navbar__list-container {
+  width: 60%;
+  font-size: 2rem;
 }
 
 .navbar__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+.navbar__list-link {
+  padding: 0 2em;
+  text-decoration: none;
+  color: #000000;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.navbar__list-link:hover {
+  color: #3CA89A;
+}
+
+.navbar__list-item:hover .navbar__dropdown {
+  display: block;
+}
+
+.navbar__dropdown {
+  display: none;
+  position: absolute;
+  -webkit-transition: display 0.3s;
+  transition: display 0.3s;
+  text-align: center;
+  line-height: 65px;
+}
+
+.navbar__dropdown-item {
+  list-style: none;
+}
+
+.navbar__dropdown-link {
+  text-decoration: none;
+  color: #000000;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.navbar__dropdown-link:hover {
+  color: #3CA89A;
+}
+
+.navbar__btn {
+  padding: 0.5em 2em;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #43B9AA;
+  border: none;
+  border-radius: 90px;
 }
 /*# sourceMappingURL=main.css.map */

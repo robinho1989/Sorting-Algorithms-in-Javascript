@@ -16,6 +16,12 @@ body {
 }
 body {
 	font-family: 'Raleway', sans-serif;
+	background-color: $background;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
 }
 .navbar {
 	height: 60px;
@@ -27,12 +33,6 @@ body {
 		height: 100%;
 		font-weight: 700;
 	}
-	&__logo-name {
-		font-size: 4rem;
-		text-decoration: none;
-		color: $mainFontColor;
-	}
-
 	&__list-container {
 		width: 60%;
 		font-size: 2rem;
@@ -44,43 +44,21 @@ body {
 	}
 
 	&__list-link {
-		padding: 0 2em;
+		padding: 0 40px;
 		text-decoration: none;
-		color: $mainFontColor;
+		color: $main-font-color;
 		transition: color 0.3s;
 	}
 	&__list-link:hover {
-		color: $headerBgc;
-	}
-
-	&__list-item:hover .navbar__dropdown {
-		display: block;
-	}
-	&__dropdown {
-		display: none;
-		position: absolute;
-		transition: display 0.3s;
-		text-align: center;
-		line-height: 65px;
-	}
-	&__dropdown-item {
-		list-style: none;
-	}
-	&__dropdown-link {
-		text-decoration: none;
-		color: $mainFontColor;
-		transition: color 0.3s;
-	}
-	&__dropdown-link:hover {
-		color: $headerBgc;
+		color: $header-bgc;
 	}
 	&__btn {
-		padding: 0.5em 2em;
+		padding: 10px 40px;
 		font-size: 2rem;
 		font-weight: 700;
-		color: $pureWhite;
+		color: $pure-white;
 		text-decoration: none;
-		background-color: $btnColor;
+		background-color: $btn-color;
 		border: none;
 		border-radius: 90px;
 	}

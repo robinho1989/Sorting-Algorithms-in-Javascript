@@ -1,0 +1,2 @@
+Hello everyone :) 
+If you want to use my code and check results out you should open this folder in program like VS Code. Styles are written in sass, so you have to compile them to css and you can enjoy my work :)

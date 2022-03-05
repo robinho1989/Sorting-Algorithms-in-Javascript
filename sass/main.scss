@@ -141,19 +141,57 @@ body {
 }
 .about-me {
 	background-color: $header-bgc;
+
 	&__container {
+		position: relative;
+		padding: 90px;
 		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		z-index: 0;
 	}
 	&__text-box {
-		position: relative;
+		width: 40%;
 	}
 	&__text {
-		font-size: 23px;
+		margin-bottom: 25px;
+		font-size: 2.3rem;
 		font-weight: 500;
 		color: $pure-white;
 	}
+	&__author-info {
+		font-size: 2.3rem;
+		color: $pure-white;
+	}
+	&__quotemark {
+		position: absolute;
+		top: 25%;
+		left: 2%;
+		z-index: -4;
+	}
 }
 .footer {
+	padding: 50px 0;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	&__nav-container {
+		display: flex;
+		align-items: center;
+	}
+	&__link-item {
+		padding: 0 40px;
+		font-size: 2rem;
+		font-weight: 700;
+		color: $main-font-color;
+		text-decoration: none;
+		transition: color 0.3s;
+	}
+	&__link-item:hover {
+		color: $header-bgc;
+	}
+	&__author-description{
+		font-size: 2rem;
+		font-weight: 700;
+	}
 }

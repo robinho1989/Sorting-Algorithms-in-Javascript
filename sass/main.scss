@@ -199,6 +199,40 @@ body {
 		text-align: justify;
 	}
 }
+.about {
+	padding: 115px 0;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__text {
+		margin-right: 50px;
+		width: 50%;
+	}
+	&__header {
+		margin-bottom: 30px;
+		font-size: 4rem;
+		font-weight: 700;
+	}
+	&__description {
+		margin-bottom: 30px;
+		font-size: 2.5rem;
+		font-weight: 500;
+		text-align: justify;
+	}
+	&__image {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 40%;
+		background-color: $image-bg;
+	}
+	&__image {
+		font-size: 4.5rem;
+		font-weight: 500;
+	}
+}
 .footer {
 	padding: 50px 0;
 	display: flex;

@@ -11,4 +11,14 @@
 		font-size: 2.5rem;
 		font-weight: 500;
 	}
+    &__animation-container{
+        display: flex;
+        
+    }
+    &__animation-box{
+        width: 50%;
+    }
+    &__btn-container{
+        width: 40%;
+    }
 }

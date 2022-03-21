@@ -14,6 +14,7 @@
 	&__animation-container {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 		width: 100%;
 	}
 	&__animation-box {
@@ -21,8 +22,9 @@
 		display: flex;
 		justify-content: space-between;
 		width: 60%;
-		border: 1px solid $main-font-color;
+		border: 7px solid $main-font-color;
 		border-radius: 20px;
+		background-color: $counting-box-background;
 	}
 	&__animation-text {
 		font-size: 2rem;

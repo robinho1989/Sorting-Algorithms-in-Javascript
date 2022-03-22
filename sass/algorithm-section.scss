@@ -12,6 +12,7 @@
 		font-weight: 500;
 	}
 	&__animation-container {
+		margin-bottom: 55px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -21,7 +22,7 @@
 		padding: 80px 40px;
 		display: flex;
 		flex-direction: column;
-		width: 70%;
+		width: 80%;
 		border: 7px solid $main-font-color;
 		border-radius: 20px;
 		background-color: $counting-box-background;
@@ -44,21 +45,46 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: 40%;
+		justify-content: center;
+		width: 20%;
 	}
 	&__btn {
-		margin-bottom: 55px;
+		margin-bottom: 5px;
+		padding: 10px 40px;
 		width: 213px;
 		height: 52px;
 		font-size: 2.2rem;
 		font-weight: 700;
 		text-transform: uppercase;
 		text-decoration: none;
+		text-align: center;
+		border-radius: 90px;
+		&--start {
+			color: $main-font-color;
+			border: 6px solid $btn-color;
+		}
+		&--stop {
+			color: $stop-button-color;
+			border: 6px solid $stop-button-color;
+		}
 	}
 	&__result-box {
 		width: 213px;
 		height: 253px;
 		border: 6px solid $main-font-color;
 		border-radius: 30px;
+	}
+	&__coding-box-title {
+		margin-bottom: 20px;
+		font-size: 3rem;
+		font-weight: 700;
+	}
+	&__coding-box-container {
+		display: flex;
+	}
+	&__coding-box{
+		background-color: $counting-box-background;
+		border: 7px solid $main-font-color;
+		border-radius: 20px;
 	}
 }

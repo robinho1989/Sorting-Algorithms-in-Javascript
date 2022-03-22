@@ -82,9 +82,16 @@
 	&__coding-box-container {
 		display: flex;
 	}
-	&__coding-box{
+	&__coding-box {
+		margin-right: 90px;
+		padding: 40px 60px;
 		background-color: $counting-box-background;
 		border: 7px solid $main-font-color;
 		border-radius: 20px;
+	}
+	&__coding-box-paragraph{
+		font-size: 2.5rem;
+		font-weight: 500;
+		line-height: 32px;
 	}
 }

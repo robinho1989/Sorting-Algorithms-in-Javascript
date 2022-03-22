@@ -20,14 +20,24 @@
 	&__animation-box {
 		padding: 80px 40px;
 		display: flex;
-		justify-content: space-between;
-		width: 60%;
+		flex-direction: column;
+		width: 70%;
 		border: 7px solid $main-font-color;
 		border-radius: 20px;
 		background-color: $counting-box-background;
 	}
+	&__animation-values {
+		display: flex;
+		justify-content: space-between;
+	}
 	&__animation-text {
 		font-size: 2rem;
+		text-align: center;
+	}
+	&__aniamtion-paragraph {
+		margin-top: 55px;
+		font-size: 4rem;
+		font-weight: 700;
 		text-align: center;
 	}
 	&__btn-container {
@@ -37,9 +47,18 @@
 		width: 40%;
 	}
 	&__btn {
+		margin-bottom: 55px;
+		width: 213px;
+		height: 52px;
 		font-size: 2.2rem;
 		font-weight: 700;
 		text-transform: uppercase;
 		text-decoration: none;
+	}
+	&__result-box {
+		width: 213px;
+		height: 253px;
+		border: 6px solid $main-font-color;
+		border-radius: 30px;
 	}
 }

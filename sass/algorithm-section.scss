@@ -41,7 +41,7 @@
 		font-weight: 700;
 		text-align: center;
 	}
-	&__btn-container {
+	&__options {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -74,22 +74,24 @@
 		border: 6px solid $main-font-color;
 		border-radius: 30px;
 	}
-	&__coding-box-title {
+}
+.coding-box{
+	&__title {
 		margin-bottom: 20px;
 		font-size: 3rem;
 		font-weight: 700;
 	}
-	&__coding-box-container {
+	&__container {
 		display: flex;
 	}
-	&__coding-box {
+	&__image {
 		margin-right: 90px;
 		padding: 40px 60px;
 		background-color: $counting-box-background;
 		border: 7px solid $main-font-color;
 		border-radius: 20px;
 	}
-	&__coding-box-paragraph{
+	&__paragraph{
 		font-size: 2.5rem;
 		font-weight: 500;
 		line-height: 32px;
